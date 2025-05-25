@@ -1,0 +1,41 @@
+<random>
+	seed = 92393247
+</random>
+	
+<condition::ternary>
+	condition size = 16
+	dontcare probability = 0.0
+	crossover = one-point
+</condition::ternary>
+
+<action::binary>
+	number of bits = 3
+</action::binary>
+
+<environment::woods>
+	map = maze6.map
+</environment::woods>
+
+<classifier_system>
+      population size = 1600
+        learning rate = 0.2
+      discount factor = 0.7
+             theta GA = 25
+  discovery component = off
+crossover probability = 0.8
+ mutation probability = 0.04
+         epsilon zero = 10
+exploration strategy = random
+initial population = solution:optimal_population.maze6q-0000
+         theta delete = 20
+</classifier_system>
+
+<experiments>
+	first experiment = 0
+	number of experiments = 1
+        first problem = 0
+        number of learning problems = 0
+	number of condensation problems = 0
+        save final population = on
+	test environment = on
+</experiments>

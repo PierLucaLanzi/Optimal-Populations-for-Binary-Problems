@@ -1,0 +1,40 @@
+<random>
+	seed = 1
+</random>
+
+<condition::ternary>
+	condition size = 6
+	dontcare probability = 0.3
+	crossover = one-point
+</condition::ternary>
+
+<environment::binary_function>
+	function = multiplexer
+	address size = 2
+</environment::binary_function>
+
+<classifier_system>
+      population size = 400
+        learning rate = 0.2
+             theta GA = 25
+crossover probability = 0.8
+ mutation probability = 0.04
+         epsilon zero = 10
+exploration strategy = random
+         theta delete = 20
+       GA subsumption = on
+         theta GA sub = 20
+       AS subsumption = on
+         theta AS sub = 100
+</classifier_system>
+
+<experiments>
+	first experiment = 0
+	number of experiments = 10
+        first problem = 0
+        number of learning problems = 10000
+	number of condensation problems = 10000
+	save experiment final state = on
+        save final population = on
+	save population every = 0
+</experiments>
