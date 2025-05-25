@@ -3,7 +3,6 @@
 # Learn more about .gitignore:
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
-espresso-logic-master/
 xcslib-1.3/build
 xcslib-1.3/executables
 xcslib-1.3/utility

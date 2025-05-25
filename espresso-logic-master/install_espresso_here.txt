@@ -1,0 +1,2 @@
+Download ESPRESSO from https://github.com/classabbyamp/espresso-logic into
+this directory and follow the instructions to create the executable.
